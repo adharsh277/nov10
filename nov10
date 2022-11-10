@@ -1,0 +1,53 @@
+thisdict1 = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict1["year"] = 2018
+thisdict1.update({"brand": "audi"})
+
+print(thisdict1)
+
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+if "model" in thisdict:
+    print("Yes, 'model' is one of the keys in the thisdict dictionary")
+if "brand" in thisdict:
+    print("no,'brand' is not one of the keys in thedict dictionry")
+
+# udj
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict.update({"color": "red"})
+# yuiyf
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
+# 436
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict.pop("year")
+thisdict.pop("brand")
+# 435
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+thisdict.pop("year")
+thisdict.pop("brand")
+
+print(thisdict)
